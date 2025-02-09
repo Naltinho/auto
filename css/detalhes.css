@@ -1,0 +1,88 @@
+/* Estilos para a página de detalhes (detalhes.php) */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #1c1c2e;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.voltar {
+    background: #ff5722;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.voltar:hover {
+    background: #e64a19;
+}
+
+.detalhes {
+    margin: 40px auto;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.detalhes img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    margin: 15px 0;
+    font-size: 26px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.btn-alugar, .btn-comprar {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 15px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-alugar {
+    background: #007bff;
+}
+
+.btn-alugar:hover {
+    background: #0056b3;
+}
+
+.btn-comprar {
+    background: #28a745;
+}
+
+.btn-comprar:hover {
+    background: #1e7e34;
+}

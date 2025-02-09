@@ -1,0 +1,113 @@
+/* Estilos para a página de veículos cadastrados (veiculos_cadastrados.php) */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #1c1c2e;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.voltar {
+    background: #ff5722;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.voltar:hover {
+    background: #e64a19;
+}
+
+.lista-veiculos {
+    margin: 40px auto;
+    max-width: 90%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background: #1c1c2e;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+th {
+    font-size: 18px;
+}
+
+td {
+    font-size: 16px;
+    color: #333;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.visualizar {
+    background: #007bff;
+}
+
+.visualizar:hover {
+    background: #0056b3;
+}
+
+.editar {
+    background: #28a745;
+}
+
+.editar:hover {
+    background: #1e7e34;
+}
+
+.excluir {
+    background: #dc3545;
+}
+
+.excluir:hover {
+    background: #c82333;
+}
